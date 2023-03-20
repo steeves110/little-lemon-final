@@ -1,0 +1,164 @@
+.about-section-background {
+    background-color: #fff;
+    width: 100%;
+    height: 32rem;
+    padding: 5rem 0;
+}
+
+.about-section-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    color: #495E57;
+}
+
+.section-left {
+    width: 80%;
+}
+
+.section-left h1 {
+    color: #f4ce14;
+}
+
+.section-left h1, h2 {
+    line-height: 0.8;
+}
+
+.section-left p {
+    width:75%;
+    margin: 20px 0;
+}
+
+.section-right {
+    width: 50%;
+    position: relative;
+}
+
+.image-box-a {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 320px;
+    top: 45px;
+    right: 0;
+    position: absolute;
+    overflow:hidden;
+}
+
+.image-box-a img {
+    width:100%;
+}
+
+.image-box-b {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 320px;
+    position: absolute;
+    overflow:hidden;
+}
+
+.image-box-b img {
+    width:100%;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .image-box-a {
+        right: 0;
+        top: 200px;
+        width: 275px;
+        height: 100%;
+    }
+
+    .image-box-b {
+        width: 275px;
+        height: 100%;
+    }
+
+    .about-section-background {
+        padding: 5rem 3rem;
+        height: 40rem;
+    }
+
+    .about-section-container {
+        width: 100%;
+    }
+
+    .section-left {
+        width: 50%;
+    }
+
+    .section-left h1 {
+        font-size: 50px;
+      }
+      
+      h2 {
+        font-size: 34px;
+      }
+    
+    .section-left p {
+        width: 80%;
+    }
+
+    .section-right {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1278px) {
+    .image-box-a {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 958px) {
+
+    .image-box-a {
+        display: inline;
+        right: 0;
+        top: 220px;
+        width: 275px;
+        height: 100%;
+    }
+}
+
+
+@media screen and (max-width: 659px) {
+
+    .about-section-background {
+        padding: 3rem;
+        height: 45rem;
+    }
+    .about-section-container {
+        flex-direction: column;
+    }
+
+    .image-box-a {
+        display: none;
+    }
+
+    .image-box-b {
+        width: 275px;
+        height: 100%;
+    }
+
+    .section-left {
+        width: 80%;
+    }
+
+    .section-left p {
+        width: 100%;
+        font-size: smaller
+    }
+
+    .section-right {
+        position: initial;
+        margin-top: 30px;
+        margin-bottom: -100px;
+        width: 100%;
+    }
+}

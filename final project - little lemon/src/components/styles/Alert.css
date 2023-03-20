@@ -1,0 +1,45 @@
+.alert-content {
+    padding: 2rem 1.75rem !important;
+    left: 700px;
+    top: 300px;
+}
+
+.alert-close {
+    color: white !important;
+    background-color: red !important;
+    width: 1.5rem !important;
+    padding: 0.2rem !important;
+    right: 0.5rem !important;
+    top: 0.5rem !important;
+    position: absolute !important;
+    border: none;
+}
+
+.alert-header {
+    padding-bottom: 1rem !important;
+}
+
+@media screen and (max-width: 1280px) {
+    .alert-content {
+        left: 14rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .alert-content {
+        left: 11rem;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    .alert-content {
+        left: 3rem;
+    }
+}
+
+@media screen and (max-height: 435px) {
+    .alert-content {
+        left: 10rem;
+        top: 5rem;
+    }
+}
